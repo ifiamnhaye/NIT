@@ -1,52 +1,97 @@
-Lab Practice 01 - Create a Local Respository on your PC / Laptop
-Day 17
-May 25th, 2026
+# Lab Practice 01 - Create a Local Respository on your PC / Laptop
 
-Table of Contents
-Task	Title
-1	Understanding What is a Repository (Repo)
-2	Create a Local Repository (Local Repo)
-3	Final Note
-Task 1 - Do You Understand What is a Repo?
-Summary of Day-16
+## Day 17
+> May 25th, 2026
+
+---
+
+# Table of Contents
+
+| Task | Title |
+|------|--------|
+| 1 | [Understanding What is a Repository (Repo)](#task-1---do-you-understand-what-is-a-repo) |
+| 2 | [Create a Local Repository (Local Repo)](#task-2---create-a-local-repository-local-repo) |
+| 3 | [Final Note](#final-note) |
+
+---
+
+# Task 1 - Do You Understand What is a Repo?
+
+## Summary of Day-16
+
 Make sure you read and understand the following before moving to Task 2.
 
-Important Concepts
-Repository = Repo = Directory + Files
+---
+
+## Important Concepts
+
+### Repository = Repo = Directory + Files
+
 A Repository (Repo) is made up of:
 
-Directories (Folders)
-Files
-Images
-Documents
-Markdown Files
-Source Code
-Videos
-Other Data
-Local Repository (Local Repo)
+- Directories (Folders)
+- Files
+  - Images
+  - Documents
+  - Markdown Files
+  - Source Code
+  - Videos
+  - Other Data
+
+---
+
+## Local Repository (Local Repo)
+
 When we create directories and files on our own Laptop/Desktop, this is called a:
 
+```text
 Local Repository (Local Repo)
-Remote Repository (Remote Repo)
+```
+
+---
+
+## Remote Repository (Remote Repo)
+
 When we create a new repository using our account on:
 
+```text
 github.com
+```
+
 this is called a:
 
+```text
 Remote Repository (Remote Repo)
-Questions
-What is a Repository?
-What is a Local Repository?
-What is a Remote Repository?
-What is the difference between Local Repo and Remote Repo?
-Task 2 - Create a Local Repository (Local Repo)
-Step 1 - Create a Main Folder
+```
+
+---
+
+## Questions
+
+1. What is a Repository?
+2. What is a Local Repository?
+3. What is a Remote Repository?
+4. What is the difference between Local Repo and Remote Repo?
+
+---
+
+# Task 2 - Create a Local Repository (Local Repo)
+
+## Step 1 - Create a Main Folder
+
 Go to your Desktop on your Windows Laptop and create a directory called:
 
+```text
 Bootcamp2026
-Step 2 - Create Daily Folders Inside Bootcamp2026
-Inside the Bootcamp2026 directory create the following folders:
+```
 
+---
+
+## Step 2 - Create Daily Folders Inside Bootcamp2026
+
+Inside the `Bootcamp2026` directory create the following folders:
+
+```text
 Bootcamp2026
  ├── Day-01 (Access Xen Orchestra)
  ├── Day-02 (Review Downloads)
@@ -65,37 +110,59 @@ Bootcamp2026
  ├── Day-15 (Using Git and Configuring Repositories)
  ├── Day-17 (Recap of Everything)
  └── Day-18 (Practice Labs - Create your first README file)
-IMPORTANT NOTE
+```
+
+---
+
+## IMPORTANT NOTE
+
 Every day you will create a new folder for your learning materials, practice labs, screenshots, notes, and markdown files.
 
 This structure will help you:
 
-Stay organized
-Track your learning journey
-Store class notes properly
-Prepare for future projects
-Build a professional GitHub repository
-Suggested Activity
+- Stay organized
+- Track your learning journey
+- Store class notes properly
+- Prepare for future projects
+- Build a professional GitHub repository
+
+---
+
+# Suggested Activity
+
 Inside each folder you can later add:
 
-Notes
-Screenshots
-Markdown files
-Practice labs
-Linux commands
-GitHub projects
-Final Questions
-Why is organization important in IT?
-Why should developers organize their repositories?
-What is the advantage of storing notes in folders?
-Why is GitHub useful for storing project files?
-Final Note
+- Notes
+- Screenshots
+- Markdown files
+- Practice labs
+- Linux commands
+- GitHub projects
+
+---
+
+# Final Questions
+
+1. Why is organization important in IT?
+2. Why should developers organize their repositories?
+3. What is the advantage of storing notes in folders?
+4. Why is GitHub useful for storing project files?
+
+---
+
+# Final Note
+
 If you have completed this lab successfully, proceed to the next lab.
 
-Congratulations
+---
+
+# Congratulations
+
 You have now:
 
-Created a Local Repository
-Organized your Bootcamp folders
-Learned the difference between Local and Remote Repositories
-Started building your professional IT learning structure
+- Created a Local Repository
+- Organized your Bootcamp folders
+- Learned the difference between Local and Remote Repositories
+- Started building your professional IT learning structure
+
+---

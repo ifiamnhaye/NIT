@@ -1,18 +1,27 @@
-Linux Practice Lab - Created by Instructor M.Khalid Khan
-May 20th, 2026 - Day 20th A complete hands-on Linux practice environment for beginners and intermediate learners.
+# Linux Practice Lab - Created by Instructor M.Khalid Khan
 
-This project automatically creates files, directories, logs, scripts, CSV data, and practice resources to help you learn and practice 100+ Linux commands.
+> May 20th, 2026 - Day 20th
+A complete hands-on Linux practice environment for beginners and intermediate learners.
 
-Features
-✅ Creates a complete Linux practice environment
-✅ Generates sample files and directories
-✅ Creates CSV and log files
-✅ Includes shell scripting examples
-✅ Permission practice setup
-✅ Compression practice data
+This project automatically creates files, directories, logs, scripts, CSV data, and practice resources to help you learn and practice **100+ Linux commands**.
+
+---
+
+# Features
+
+✅ Creates a complete Linux practice environment  
+✅ Generates sample files and directories  
+✅ Creates CSV and log files  
+✅ Includes shell scripting examples  
+✅ Permission practice setup  
+✅ Compression practice data  
 ✅ Great for beginners learning Linux commands
 
-📂 Project Structure
+---
+
+# 📂 Project Structure
+
+```bash
 linux-practice/
 │
 ├── files/
@@ -24,42 +33,88 @@ linux-practice/
 ├── temp/
 ├── projects/
 └── compress_me/
-⚙️ Requirements
-Linux OS (Ubuntu, CentOS, Fedora, Kali, WSL, etc.)
-Bash shell
-🚀 Setup
-1️⃣ Clone Repository
+```
+
+---
+
+# ⚙️ Requirements
+
+- Linux OS (Ubuntu, CentOS, Fedora, Kali, WSL, etc.)
+- Bash shell
+
+---
+
+# 🚀 Setup
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/yourusername/linux-practice-lab.git
-2️⃣ Move into Project Directory
+```
+
+## 2️⃣ Move into Project Directory
+
+```bash
 cd linux-practice-lab
-3️⃣ Make Script Executable
+```
+
+## 3️⃣ Make Script Executable
+
+```bash
 chmod +x linux-practice.sh
-4️⃣ Run Script
+```
+
+## 4️⃣ Run Script
+
+```bash
 ./linux-practice.sh
+```
+
 OR
 
+```bash
 bash linux-practice.sh
-📁 What This Script Creates
-Files
-employees.txt
-fruits.txt
-story.txt
-numbers.txt
-secure.txt
-bigfile.img
-CSV Files
-students.csv
-Logs
-system.log
-Scripts
-hello.sh
-Directories
-backup/
-projects/
-temp/
-compress_me/
-🧪 Linux Commands You Can Practice
-Navigation Commands
+```
+
+---
+
+# 📁 What This Script Creates
+
+## Files
+
+- employees.txt
+- fruits.txt
+- story.txt
+- numbers.txt
+- secure.txt
+- bigfile.img
+
+## CSV Files
+
+- students.csv
+
+## Logs
+
+- system.log
+
+## Scripts
+
+- hello.sh
+
+## Directories
+
+- backup/
+- projects/
+- temp/
+- compress_me/
+
+---
+
+# 🧪 Linux Commands You Can Practice
+
+## Navigation Commands
+
+```bash
 pwd
 whoami
 date
@@ -68,7 +123,11 @@ ls -ltr
 clear
 cd files
 cd ..
-File Management (Creation & Deletion)
+```
+
+## File Management (Creation & Deletion)
+
+```bash
 touch files/test.txt
 
 rm files/test.txt
@@ -76,13 +135,20 @@ rm files/test.txt
 mkdir testdir
 
 rmdir testdir
-Copy / Move / Rename
+```
+
+## Copy / Move / Rename
+```bash
 cp files/story.txt backup/
 
 mv files/story.txt files/newstory.txt
 
 mv files/newstory.txt files/story.txt
-File Viewing
+```
+
+## File Viewing
+
+```bash
 cat files/story.txt
 
 less files/story.txt
@@ -92,85 +158,150 @@ more files/story.txt
 head -3 files/story.txt
 
 tail -2 files/story.txt
-Search Commands
+```
+
+## Search Commands
+
+```bash
 grep "Linux" files/story.txt
 
 egrep "ERROR|WARNING" logs/system.log
 
 find ~/linux-practice -name "*.txt"
-Sorting & Unique
+```
+
+## Sorting & Unique
+
+```bash
 sort files/fruits.txt
 
 sort files/fruits.txt | uniq
-Count Lines
+```
+
+## Count Lines
+
+```bash
 wc -l files/fruits.txt
-Shuffle
+```
+
+## Shuffle
+
+```bash
 shuf files/fruits.txt
-Split File
+```
+
+## Split File
+
+```bash
 split -l 5 files/numbers.txt split_
-Compare Files
+```
+
+## Compare Files
+
+```bash
 cp files/story.txt files/story2.txt
 
 cmp files/story.txt files/story2.txt
 
 diff files/story.txt files/story2.txt
-Copy / Move / Rename
+```
+
+## Copy / Move / Rename
+
+```bash
 cp files/story.txt backup/
 
 mv files/story.txt files/newstory.txt
 
 mv files/newstory.txt files/story.txt
-Find Files
+```
+
+## Find Files
+
+```bash
 find ~/linux-practice -name "*.txt"
-AWK Practice
+```
+
+## AWK Practice
 Print second column:
-
+```bash
 awk -F "," '{print $2}' data/students.csv
-CUT Practice
+```
+
+## CUT Practice
+
+```bash
 cut -c1-5 files/story.txt
-SED Practice
+```
+
+## SED Practice
 Print line 2:
-
+```bash
 sed -n '2p' files/story.txt
+```
 Replace word:
-
+```bash
 sed 's/Linux/UNIX/g' files/story.txt
-TR Practice
-Uppercase:
+```
 
+## TR Practice
+Uppercase:
+```bash
 tr '[:lower:]' '[:upper:]' < files/story.txt
-FOLD Practice
+```
+
+## FOLD Practice
+```bash
 echo "ABCDEFGHIJK" | fold -w1
-Compression Practice
+```
+
+## Compression Practice
+```bash
 gzip
 gzip files/story.txt
 
 gunzip files/story.txt.gz
-tar
+```
+
+## tar
+```bash
 tar -czf backup.tar.gz compress_me/
 
 tar -xzf backup.tar.gz
-zip
+```
+
+## zip
+```bash
 zip files.zip files/fruits.txt files/story.txt
 
 unzip -l files.zip
-Process Practice
+```
+
+## Process Practice
 Run process in background:
-
+```bash
 sleep 300 &
+```
 Check jobs:
-
+```bash
 jobs
+```
 Foreground / Background:
-
+```bash
 bg
 
 fg
-Kill process:
+```
+
+## Kill process:
+```bash
 ps -ef | grep sleep
 
 pkill sleep
-System Information
+```
+
+## System Information
+```bash
 hostname
 
 uname -a
@@ -182,28 +313,44 @@ free -h
 df -h
 
 du -sh ~/linux-practice
-Networking Practice
+```
+
+## Networking Practice
+```bash
 ping google.com
 
 curl http://numbersapi.com/random
 
 wget https://example.com
-Environment Variables
+```
+
+## Environment Variables
+```bash
 export MYNAME="Khalid"
 
 echo $MYNAME
 
 printenv
-Alias Practice
+```
+
+## Alias Practice
+```bash
 alias ll='ls -ltr'
 
 ll
-Scheduling Practice
-crontab -e
-Example cron:
+```
 
+## Scheduling Practice
+```bash
+crontab -e
+```
+Example cron:
+```text
 * * * * * echo "Hello" >> ~/linux-practice/logs/cron.log
-User Management
+```
+
+## User Management
+```bash
 sudo useradd testuser
 
 sudo passwd testuser
@@ -211,36 +358,52 @@ sudo passwd testuser
 id testuser
 
 sudo userdel testuser
-Permissions
+```
+
+## Permissions
+```bash
 chmod 755 files/story.txt
 
 chown $USER files/story.txt
 
 chgrp $USER files/story.txt
-🎯 Learning Goals
+```
+
+---
+
+# 🎯 Learning Goals
+
 This project helps you learn:
 
-Linux terminal basics
-File operations
-Directory management
-Text processing
-Shell scripting
-Permissions
-Compression tools
-Networking basics
-Process management
-📚 Recommended Practice Order
+- Linux terminal basics
+- File operations
+- Directory management
+- Text processing
+- Shell scripting
+- Permissions
+- Compression tools
+- Networking basics
+- Process management
+
+---
+
+# 📚 Recommended Practice Order
+
 Practice in this order:
 
-Navigation Commands
-File Management
-Text Processing
-Search Commands
-Compression
-Permissions
-Process Management
-Networking
-Automation
-User Management
-🐧 Happy Learning Linux!
+1. Navigation Commands
+2. File Management
+3. Text Processing
+4. Search Commands
+5. Compression
+6. Permissions
+7. Process Management
+8. Networking
+9. Automation
+10. User Management
+
+---
+
+# 🐧 Happy Learning Linux!
+
 Practice daily and experiment with commands to become comfortable with Linux administration and shell scripting.
